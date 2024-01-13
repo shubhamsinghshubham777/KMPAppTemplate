@@ -8,3 +8,6 @@ captures
 .cxx
 local.properties
 xcuserdata
+
+# Ignore all .lock files
+*.lock

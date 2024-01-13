@@ -8,6 +8,7 @@ pluginManagement {
 }
 
 dependencyResolutionManagement {
+    @Suppress("UnstableApiUsage")
     repositories {
         google()
         mavenCentral()
@@ -17,3 +18,4 @@ dependencyResolutionManagement {
 rootProject.name = "KMPAppTemplate"
 include(":android")
 include(":shared")
+include(":web")
